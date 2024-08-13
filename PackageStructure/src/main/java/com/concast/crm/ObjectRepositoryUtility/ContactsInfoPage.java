@@ -13,9 +13,6 @@ public class ContactsInfoPage {
 		PageFactory.initElements( driver,this );
 	}
 
-	@FindBy(id="dtlview_Last Name")
-	private WebElement lastnametext;
-	
 	@FindBy(xpath="//span[@class='dvHeaderText']")
 	private WebElement conheaderinfo;
 	
@@ -28,10 +25,6 @@ public class ContactsInfoPage {
 @FindBy(id="dtlview_Support End Date")
 private WebElement enddate;
 	
-	public WebElement getLastnametext() {
-		return lastnametext;
-	
-	}
 
 	public WebElement getConheaderinfo() {
 		return conheaderinfo;
