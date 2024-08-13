@@ -12,4 +12,10 @@ public WebElement getProducts()
 {
 	return prod;
 }
+@findBy(name="prod1")
+private WebElement prod1;
+public WebElement getProd()
+{
+	return prod1;
+}
 }
