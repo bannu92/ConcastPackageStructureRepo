@@ -19,7 +19,7 @@ WebDriver driver;
 	
 	}
 @findBy(name="user")
-private WebElement user;
+private WebElement user1;
 public WebElement getUser()
 {
 	return user;
