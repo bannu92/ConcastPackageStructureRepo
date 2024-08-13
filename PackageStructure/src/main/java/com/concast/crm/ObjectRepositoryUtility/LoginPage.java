@@ -18,6 +18,12 @@ WebDriver driver;
 		PageFactory.initElements( driver,this );
 	
 	}
+@findBy(name="user")
+private WebElement user;
+public WebElement getUser()
+{
+	return user;
+}
 	
 @FindBy(name="user_name")
 private WebElement usernameEdit;
