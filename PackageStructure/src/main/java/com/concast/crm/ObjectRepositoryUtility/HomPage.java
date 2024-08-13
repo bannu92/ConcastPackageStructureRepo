@@ -21,6 +21,13 @@ private WebElement organisationstab;
 	@FindBy(linkText="Contacts")
 private WebElement contactstab;
 
+	@FindBy(linkText = "Products")
+	private WebElement Products;
+	
+	public WebElement getProducts()
+	{
+		return Products;
+	}
 	public WebElement getOrganisationstab() {
 		return organisationstab;
 	} 
